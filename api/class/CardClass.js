@@ -58,4 +58,4 @@ class ManagerCard {
   }
 }
 
-export default ManagerCard
+export default ManagerCard;
