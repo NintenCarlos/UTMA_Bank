@@ -33,7 +33,7 @@ class ManagerUser {
         isAdmin: this.isAdmin,
         password: this.password,
       });
-      const MA = new ManagerAccounts(user._id, 12345, "Ahorro", 10000);
+      const MA = new ManagerAccounts(user._id, '12345', "Ahorro", 10000);
       const curretAccount = await MA.createAccount();
       const MC = new ManagerCard(
         user._id,
